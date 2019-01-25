@@ -16,7 +16,6 @@
                 <asp:Label ID="LblAlert" runat="server" Text="" ></asp:Label>
                 <asp:Button ID="BtnSend" runat="server" Text="senden" OnClick="BtnSend_Click" /><br /><br />
             </asp:Panel>
-
             <asp:DataList ID="DL" runat="server" BackColor="#CCCCCC" BorderColor="#999999" BorderStyle="Solid" BorderWidth="3px" CellPadding="4" CellSpacing="2" DataSourceID="DSDataList" ForeColor="Black" GridLines="Both" Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False" Font-Underline="False" HorizontalAlign="Center" Width="1046px">
                 <FooterStyle BackColor="#CCCCCC" />
                 <HeaderStyle BackColor="Black" Font-Bold="True" ForeColor="White" />
@@ -36,8 +35,6 @@
                 <SelectedItemStyle BackColor="#000099" Font-Bold="True" ForeColor="White" />
             </asp:DataList>
             <asp:SqlDataSource ID="DSDataList" runat="server" ConnectionString="<%$ ConnectionStrings:fiaflowConnectionString %>" SelectCommand="SELECT [User].Name, Post.Date, Post.Text FROM Post INNER JOIN [User] ON Post.[User] = [User].UserID ORDER BY Post.Date DESC"></asp:SqlDataSource>
-
-
         </div>
     </form>
 </body>

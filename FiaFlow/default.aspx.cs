@@ -14,7 +14,6 @@ namespace FiaFlow
         SqlConnection con = new SqlConnection("Data Source=Vaio;Initial Catalog=fiaflow;Integrated Security=True");
         protected void Page_Load(object sender, EventArgs e)
         {
-
         }
 
         protected void BtnLogin_Click(object sender, EventArgs e)
@@ -46,27 +45,6 @@ namespace FiaFlow
             TxtPassword.Text = String.Empty;
             Response.Redirect("posts.aspx");
         }
-        //SELECT[Datum], [WID], [Temperatur], [Luftdruck] FROM[Wetterdatum] WHERE[Datum] LIKE @Datum ORDER BY[WID]"
-        //String statement = $"insert into Person (Vorname, Nachname, Geburtsjahr) values(@VName, @NName, @GebJahr)";
-        ////NIE!!! so: String statement = $"insert into Person (Nachname, Vorname, Geburtsjahr) values ('TxtNachname.Text'), ('TxtVorname.Text'),(CmbJahr.SelectedValue)" => SQL-Injection möglich!!!
-        //SQLiteCommand cmd = new SQLiteCommand(statement, con);
-
-        //    if (TxtVorname.Text != "" && TxtNachname.Text != "")
-        //    {
-        //        cmd.Parameters.AddWithValue("@VName", TxtVorname.Text);
-        //        cmd.Parameters.AddWithValue("@NName", TxtNachname.Text);
-
-        //        //Prüfen, ob ein Wert aus der ComboBox gewählt wurde...
-        //        Debug.Assert(CmbJahr.SelectedValue != null, "CmbJahr.SelectedValue != null");
-        //        cmd.Parameters.AddWithValue("@GebJahr", CmbJahr.SelectedValue);
-
-        //        con.Open();
-        //        cmd.ExecuteNonQuery();
-        //        con.Close();
-
-        //        TxtVorname.Clear();
-        //        TxtNachname.Clear();
-        //        CmbJahr.SelectedIndex = 80;
-        //        TxtVorname.Focus();
+        
     }
 }
