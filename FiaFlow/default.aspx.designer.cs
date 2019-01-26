@@ -22,6 +22,15 @@ namespace FiaFlow {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
+        /// PnlLogin-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel PnlLogin;
+        
+        /// <summary>
         /// DDLUser-Steuerelement
         /// </summary>
         /// <remarks>

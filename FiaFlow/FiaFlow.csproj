@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="CSS\Style.css" />
     <Content Include="default.aspx" />
+    <Content Include="Grafix\bluemetal1.jpg" />
     <Content Include="posts.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>

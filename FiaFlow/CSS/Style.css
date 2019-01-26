@@ -1,2 +1,8 @@
 ﻿body {
+    background-image: url('../Grafix/bluemetal1.jpg');
+}
+Panel {
+    background:none;
+    color:whitesmoke;
+    border-color:whitesmoke;
 }
