@@ -22,13 +22,31 @@ namespace FiaFlow {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// BtnNew-Steuerelement
+        /// HLGithub-Steuerelement
         /// </summary>
         /// <remarks>
         /// Automatisch generiertes Feld
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnNew;
+        protected global::System.Web.UI.WebControls.HyperLink HLGithub;
+        
+        /// <summary>
+        /// BtnNeu-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton BtnNeu;
+        
+        /// <summary>
+        /// BtnLogout-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton BtnLogout;
         
         /// <summary>
         /// PnlNew-Steuerelement
@@ -58,13 +76,13 @@ namespace FiaFlow {
         protected global::System.Web.UI.WebControls.Label LblAlert;
         
         /// <summary>
-        /// BtnSend-Steuerelement
+        /// BtnSenden-Steuerelement
         /// </summary>
         /// <remarks>
         /// Automatisch generiertes Feld
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnSend;
+        protected global::System.Web.UI.WebControls.ImageButton BtnSenden;
         
         /// <summary>
         /// PnlPosts-Steuerelement

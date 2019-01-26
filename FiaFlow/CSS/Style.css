@@ -1,8 +1,75 @@
 ﻿body {
+    background-color: black;
     background-image: url('../Grafix/bluemetal1.jpg');
+    background-attachment: scroll;
+    background-size: 100%;
+    color: whitesmoke;
 }
-Panel {
-    background:none;
+
+header {
+    height:100px;
+    background-color:black;
+}
+
+
+h1 {
+    font-weight:bold;
+    text-shadow:3px 3px 5px darkgrey;
+    text-align:center;
+}
+
+div {
+   
+    font-family:Consolas, monospace;
+    font-size:100%;
+    height:80%;
+}
+
+.Pnl {
+    background: none;
+    color: whitesmoke;
+    border-color: whitesmoke;
+    
+    border-radius:15%;
+    width:90%;
+    padding:15px;
+}
+
+.IBtn {
+    width:10%;
+    height:10%;
+}
+
+#DDLUser {
+    min-width:200px;
+}
+
+label {
+    min-width:200px;
     color:whitesmoke;
-    border-color:whitesmoke;
+}
+
+#LblAlert {
+}
+
+#TxtPassword {
+    min-width:200px;
+    opacity:0.5;
+}
+
+#NameTxt {
+    width:100%;
+    border:none;
+    border-color:white;
+}
+
+#DateTxt {
+    width: 100%;
+    border:none;
+}
+
+#TextTxt {
+    min-width: 500px;
+    height:auto;
+    min-height:200px;
 }

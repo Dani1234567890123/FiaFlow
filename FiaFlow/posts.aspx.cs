@@ -30,13 +30,13 @@ namespace FiaFlow
                 
             }
         }
-
-        protected void BtnNew_Click(object sender, EventArgs e)
+        protected void BtnNeu_Click(object sender, ImageClickEventArgs e)
         {
             PnlNew.Visible = true;
         }
+        
 
-        protected void BtnSend_Click(object sender, EventArgs e)
+        protected void BtnSenden_Click(object sender, EventArgs e)
         {
             int id;
             int ok = 0;
@@ -74,6 +74,13 @@ namespace FiaFlow
                     LblAlert.Text = "Senden fehlgeschlagen";
                 }
             }
+        }
+
+       
+        protected void BtnLogout_Click1(object sender, ImageClickEventArgs e)
+        {
+            Session["Login"] = null;
+            Response.Redirect("default.aspx");
         }
     }
 }

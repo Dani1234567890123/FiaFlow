@@ -58,13 +58,13 @@ namespace FiaFlow {
         protected global::System.Web.UI.WebControls.TextBox TxtPassword;
         
         /// <summary>
-        /// BtnLogin-Steuerelement
+        /// BtnLog-Steuerelement
         /// </summary>
         /// <remarks>
         /// Automatisch generiertes Feld
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnLogin;
+        protected global::System.Web.UI.WebControls.ImageButton BtnLog;
         
         /// <summary>
         /// LblAlert-Steuerelement

@@ -70,6 +70,11 @@
     <Content Include="CSS\Style.css" />
     <Content Include="default.aspx" />
     <Content Include="Grafix\bluemetal1.jpg" />
+    <Content Include="Grafix\butto.png" />
+    <Content Include="Grafix\buttonLogin.png" />
+    <Content Include="Grafix\buttonLogout.png" />
+    <Content Include="Grafix\buttonNew.png" />
+    <Content Include="Grafix\buttonSend.png" />
     <Content Include="posts.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>

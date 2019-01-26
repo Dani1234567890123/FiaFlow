@@ -10,20 +10,26 @@
     <title>FiaFlow Login</title>
 </head>
 <body>
+    
+        <header>
+            <h1>Zutritt nur für Eingeweihte...</h1>
+        </header>
     <form id="form1" runat="server">
         <div>
-            <asp:Panel ID="PnlLogin" GroupingText="Login" runat="server">
+            <asp:Panel ID="PnlLogin" CssClass="Pnl" GroupingText="Login" runat="server">
                 <asp:DropDownList ID="DDLUser" runat="server" DataSourceID="DS_DDL" DataTextField="Name" DataValueField="UserID"></asp:DropDownList>
                 <asp:SqlDataSource ID="DS_DDL" runat="server" ConnectionString="<%$ ConnectionStrings:fiaflowConnectionString %>" SelectCommand="SELECT [UserID], [Name] FROM [User]"></asp:SqlDataSource>
                 <br />
                 <br />
                 <asp:TextBox ID="TxtPassword" runat="server" TextMode="Password" meta:resourcekey="TxtPasswordResource1"></asp:TextBox><br />
                 <br />
-                <asp:Button ID="BtnLogin" runat="server" Text="Login" meta:resourcekey="BtnLoginResource1" OnClick="BtnLogin_Click" />
+                <asp:ImageButton CssClass="IBtn" ImageUrl="Grafix/buttonLogin.png" ID="BtnLog"  runat="server" OnClick="BtnLog_Click" />
+                <%--<asp:Button ID="BtnLogin" runat="server" Text="Login" meta:resourcekey="BtnLoginResource1" OnClick="BtnLogin_Click" />--%>
                 <asp:Label ID="LblAlert" runat="server" Text=""></asp:Label>
             </asp:Panel>
 
         </div>
+       
     </form>
 </body>
 </html>

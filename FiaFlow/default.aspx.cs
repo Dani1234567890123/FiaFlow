@@ -15,8 +15,7 @@ namespace FiaFlow
         protected void Page_Load(object sender, EventArgs e)
         {
         }
-
-        protected void BtnLogin_Click(object sender, EventArgs e)
+        protected void BtnLog_Click(object sender, ImageClickEventArgs e)
         {
             string pw = TxtPassword.Text;
             string statement = $"SELECT [password] FROM [password] WHERE [PwID] = 1";
@@ -25,7 +24,13 @@ namespace FiaFlow
             string pwDB = (string)cmd.ExecuteScalar();
             con.Close();
             ComparePasswords(pw, pwDB);
+
         }
+
+        //protected void BtnLogin_Click(object sender, EventArgs e)
+        //{
+            
+        //}
 
         private void ComparePasswords(string pw, string pwDB)
         {
@@ -45,6 +50,7 @@ namespace FiaFlow
             TxtPassword.Text = String.Empty;
             Response.Redirect("posts.aspx");
         }
-        
+
+       
     }
 }
